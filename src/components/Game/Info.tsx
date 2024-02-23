@@ -22,7 +22,7 @@ function Info(props: {setName: CallableFunction}) {
           type="text"
           value={name}
         ></input>
-        <input type="submit"></input>
+        <input value="Enter" type="submit"></input>
       </form>
     </>
   );
