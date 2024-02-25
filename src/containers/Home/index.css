@@ -10,3 +10,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+.hello {
+  animation-duration: 1s;
+  border-radius: 5px;
+  animation-name: animate-fade;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% { opacity: 0; border: 1px solid blue; }
+  50% { border: 6px solid red; }
+  100% { opacity: 1; border: 1px solid blue; }
+}
